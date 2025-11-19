@@ -1,34 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app">
+      <div className="template">
+        <header className="template-header">
+          <h1 className="template-title">V8 Template</h1>
+        </header>
+
+        <main className="template-body">
+          {/* Package Manager */}
+          <section className="template-column">
+            <h2 className="column-title">Package Manager</h2>
+
+            <div className="card">
+              <div className="card-inner">
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+
+                <div className="card-divider" />
+
+                <div className="card-row card-row--muted">
+                  <span className="card-row-label">Yarn (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* FE Framework */}
+          <section className="template-column">
+            <h2 className="column-title">FE Framework</h2>
+            <div className="card" />
+          </section>
+
+          {/* Build Tool */}
+          <section className="template-column">
+            <h2 className="column-title">Build Tool</h2>
+            <div className="card" />
+          </section>
+
+          {/* Extra Checks */}
+          <section className="template-column">
+            <h2 className="column-title">Extra Checks</h2>
+            <div className="card" />
+          </section>
+        </main>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
