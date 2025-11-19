@@ -95,3 +95,40 @@ body {
   height: 22px;
   border-radius: 2px;
 }
+
+.template-project-header {
+  margin-bottom: 32px;
+}
+
+.project-name-wrapper {
+  max-width: 100%;
+}
+
+.project-name-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 24px;
+}
+
+.project-name-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.project-name-input {
+  color: white;
+  flex: 1;
+  padding: 8px;
+  border: 3px solid #000;
+  font-size: 18px;
+}
+
+.generate-button {
+  color: black;
+  padding: 8px 24px;
+  border: 3px solid #000;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
