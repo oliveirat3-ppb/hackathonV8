@@ -41,19 +41,88 @@ function App() {
           {/* FE Framework */}
           <section className="template-column">
             <h2 className="column-title">FE Framework</h2>
-            <div className="card" />
+            <div className="card">
+              <div className="card-inner">
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+              </div>
+            </div>
           </section>
 
           {/* Build Tool */}
           <section className="template-column">
             <h2 className="column-title">Build Tool</h2>
-            <div className="card" />
+            <div className="card">
+              <div className="card-inner">
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+              </div>
+            </div>
           </section>
 
           {/* Extra Checks */}
           <section className="template-column">
             <h2 className="column-title">Extra Checks</h2>
-            <div className="card" />
+            <div className="card">
+              <div className="card-inner">
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+              </div>
+            </div>
           </section>
         </main>
       </div>
