@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
@@ -18,11 +18,20 @@ function App() {
                   <span className="card-row-label">NPM (vX.X.X)</span>
                   <input type="checkbox" className="card-checkbox" />
                 </div>
-
-                <div className="card-divider" />
-
-                <div className="card-row card-row--muted">
-                  <span className="card-row-label">Yarn (vX.X.X)</span>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
+                  <input type="checkbox" className="card-checkbox" />
+                </div>
+                <div className="card-row">
+                  <span className="card-row-label">NPM (vX.X.X)</span>
                   <input type="checkbox" className="card-checkbox" />
                 </div>
               </div>
@@ -49,7 +58,7 @@ function App() {
         </main>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

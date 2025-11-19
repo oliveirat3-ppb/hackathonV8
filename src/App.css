@@ -18,24 +18,17 @@ body {
   padding: 24px;
 }
 
-/* Container principal */
-
 .template {
-  width: 100%;
-  max-width: 1600px;
-  min-height: 500px;
+  width: fit-content;
+  max-width: 90vw;
   border: 4px solid #222;
   border-radius: 40px;
   padding: 32px 40px 40px;
-  position: relative;
 }
-
-/* Header */
 
 .template-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 40px;
 }
 
@@ -44,32 +37,6 @@ body {
   font-weight: 600;
   margin: 0;
 }
-
-/* Badge com nome + setinha */
-
-.template-user {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.template-user-arrow {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 16px solid #f6c94c; /* amarelo clarinho */
-}
-
-.template-user-badge {
-  background: #f6c94c;
-  padding: 6px 16px;
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-/* Corpo com as colunas */
 
 .template-body {
   display: grid;
@@ -84,12 +51,10 @@ body {
 
 .column-title {
   color: black;
-  margin: 0 0 8px; /* Aproxima o título do card */
+  margin: 0 0 8px;
   font-size: 22px;
   font-weight: 600;
 }
-
-/* Cards */
 
 .card {
   flex: 1;
@@ -111,6 +76,7 @@ body {
 }
 
 .card-row-label {
+  color: black;
   font-size: 18px;
 }
 
