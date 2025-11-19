@@ -15,10 +15,6 @@ function App() {
     <div className="app">
       <div className="template">
         <header className="template-header">
-          <h1 className="template-title">V8 Template</h1>
-        </header>
-
-        <main className="template-body">
           <section className="template-project-header">
             <div className="project-name-wrapper">
               <label className="project-name-label" htmlFor="project-name-input">
@@ -44,6 +40,10 @@ function App() {
               </div>
             </div>
           </section>
+        </header>
+
+        <main className="template-body">
+
 
           {TEMPLATE_SECTIONS.map(section => (
             <TemplateColumn
