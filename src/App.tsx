@@ -12,7 +12,6 @@ function App() {
           {/* Package Manager */}
           <section className="template-column">
             <h2 className="column-title">Package Manager</h2>
-
             <div className="card">
               <div className="card-inner">
                 <div className="card-row">

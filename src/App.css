@@ -83,9 +83,10 @@ body {
 }
 
 .column-title {
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0 0 16px;
+  color: black;
+  margin: 0 0 8px; /* Aproxima o título do card */
+  font-size: 22px;
+  font-weight: 600;
 }
 
 /* Cards */
