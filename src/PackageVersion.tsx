@@ -27,16 +27,15 @@ export default function PackageVersion({ packageName }: { packageName: string })
 
   return (
     <div
-      style={{
-        backgroundColor: "black",
-        color: "white",
-        padding: "10px",
-        borderRadius: "5px",
-        marginTop: "10px",
-      }}
+    //   style={{
+    //     backgroundColor: "black",
+    //     color: "white",
+    //     padding: "10px",
+    //     borderRadius: "5px",
+    //     marginTop: "10px",
+    //   }}
     >
-      <strong>{packageName}</strong>{" "}
-      {error ? `Error: ${error}` : `latest version: ${version || "Loading..."}`}
+      {error ? `Error: ${error}` : `(${version || "Loading..."})`}
     </div>
   );
 };

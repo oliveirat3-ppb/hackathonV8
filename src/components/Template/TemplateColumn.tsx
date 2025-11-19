@@ -10,8 +10,8 @@ export const TemplateColumn = ({ title, items }: TemplateTypes.TemplateColumnPro
           {items.map(item => (
             <CardRow
               key={item.id}
+              id={item.id}
               label={item.label}
-              version={item.version}
             />
           ))}
         </div>

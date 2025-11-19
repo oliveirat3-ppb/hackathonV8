@@ -3,13 +3,13 @@
 export namespace TemplateTypes {
   export interface CardRowProps {
     label: string;
-    version: string;
+    key: string;
+    id: string;
   }
 
   export interface Item {
     id: string;
     label: string;
-    version: string;
   }
 
   export interface TemplateColumnProps {
